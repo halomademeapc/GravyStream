@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GravyStream", "GravyStream\GravyStream.csproj", "{FCC968EA-91F7-4A16-AAF6-49B0A6CE2AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GravyStream.Schema", "GravyStream.Schema\GravyStream.Schema.csproj", "{AAE79367-AF85-47B7-8A9E-CAB286B458FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC968EA-91F7-4A16-AAF6-49B0A6CE2AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC968EA-91F7-4A16-AAF6-49B0A6CE2AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC968EA-91F7-4A16-AAF6-49B0A6CE2AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC968EA-91F7-4A16-AAF6-49B0A6CE2AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE79367-AF85-47B7-8A9E-CAB286B458FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE79367-AF85-47B7-8A9E-CAB286B458FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE79367-AF85-47B7-8A9E-CAB286B458FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE79367-AF85-47B7-8A9E-CAB286B458FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61CC0888-479E-49E5-858C-F33112E02F03}
+	EndGlobalSection
+EndGlobal
