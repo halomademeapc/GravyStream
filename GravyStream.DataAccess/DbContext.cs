@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GravyStream.DataAccess
 {
-    public class StreamingContext : DbContext
+    public class VodContext : DbContext
     {
-        public StreamingContext(DbContextOptions<StreamingContext> options) : base(options)
+        public VodContext(DbContextOptions<VodContext> options) : base(options)
         {
         }
 
@@ -16,11 +16,16 @@ namespace GravyStream.DataAccess
         public DbSet<Comment> Comments { get; set; }
         public DbSet<VideoReaction> VideoReactions { get; set; }
         public DbSet<MediaStream> MediaStreams { get; set; }
+        public DbSet<AudioStream> AudioStreams { get; set; }
+        public DbSet<VideoStream> VideoStreams { get; set; }
+        public DbSet<SubtitleStream> SubtitleStreams { get; set; }
         public DbSet<ConversionJob> ConversionJobs { get; set; }
         public DbSet<VideoTag> Tags { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.HasDefaultSchema("Vod");
+
             builder.Entity<Person>(entity =>
             {
                 entity.HasKey(p => p.Id);
