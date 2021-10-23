@@ -148,9 +148,9 @@ namespace GravyStream.Schema
         /// <summary>
         /// Data rate of the stream
         /// </summary>
-        /// <remarks>Unit is bits per second</remarks>
-        [Range(0, long.MaxValue)]
-        public long Bitrate { get; set; }
+        /// <remarks>Unit is kilobits per second</remarks>
+        [Range(0, int.MaxValue)]
+        public int Bitrate { get; set; }
 
         public override string ToString() => string.IsNullOrEmpty(Label) ? $"{Culture} ({Codec})" : Label;
     }

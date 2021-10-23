@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GravyStream.Schema", "Gravy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GravyStream.DataAccess", "GravyStream.DataAccess\GravyStream.DataAccess.csproj", "{E792B154-8568-40C6-BCB0-C9D9B2650079}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GravyStream.Transcoding", "GravyStream.Transcoding\GravyStream.Transcoding.csproj", "{E23A46E1-1422-4147-BCF3-78F0BF00D86B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GravyStream.Transcoding.Tests", "GravyStream.Transcoding.Tests\GravyStream.Transcoding.Tests.csproj", "{9B8BF794-DD93-4828-B4C8-2A6BF98BCD47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{E792B154-8568-40C6-BCB0-C9D9B2650079}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E792B154-8568-40C6-BCB0-C9D9B2650079}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E792B154-8568-40C6-BCB0-C9D9B2650079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23A46E1-1422-4147-BCF3-78F0BF00D86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23A46E1-1422-4147-BCF3-78F0BF00D86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23A46E1-1422-4147-BCF3-78F0BF00D86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23A46E1-1422-4147-BCF3-78F0BF00D86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B8BF794-DD93-4828-B4C8-2A6BF98BCD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B8BF794-DD93-4828-B4C8-2A6BF98BCD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B8BF794-DD93-4828-B4C8-2A6BF98BCD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B8BF794-DD93-4828-B4C8-2A6BF98BCD47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
