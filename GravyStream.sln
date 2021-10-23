@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GravyStream", "GravyStream\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GravyStream.Schema", "GravyStream.Schema\GravyStream.Schema.csproj", "{AAE79367-AF85-47B7-8A9E-CAB286B458FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GravyStream.DataAccess", "GravyStream.DataAccess\GravyStream.DataAccess.csproj", "{E792B154-8568-40C6-BCB0-C9D9B2650079}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{AAE79367-AF85-47B7-8A9E-CAB286B458FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAE79367-AF85-47B7-8A9E-CAB286B458FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAE79367-AF85-47B7-8A9E-CAB286B458FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E792B154-8568-40C6-BCB0-C9D9B2650079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E792B154-8568-40C6-BCB0-C9D9B2650079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E792B154-8568-40C6-BCB0-C9D9B2650079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E792B154-8568-40C6-BCB0-C9D9B2650079}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

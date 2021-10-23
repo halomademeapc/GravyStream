@@ -15,7 +15,7 @@ namespace GravyStream.Schema
         public string SsoId { get; set; }
         [Display(Name = "Image URL"), MaxLength(300), DataType(DataType.ImageUrl)]
         public string ImageUrl { get; set; }
-        public DateTime DateRegistered { get; set; }
+        public DateTime Registered { get; set; }
 
         public virtual ICollection<Contributor> Contributions { get; set; }
         public virtual ICollection<Comment> Comments { get; set; }
@@ -92,6 +92,8 @@ namespace GravyStream.Schema
         /// Parent ID of comment, if comment is a reply
         /// </summary>
         public Guid? ParentId { get; set; }
+
+        public bool IsVisible { get; set; }
 
         public virtual Video Video { get; set; }
 
